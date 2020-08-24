@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.font {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Adi Haus Regular';
+  src: local('Adi Haus Regular'), url(./fonts/adihaus_regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Adi Haus Italic';
+  src: local('Adi Haus Italic'), url(./fonts/adihaus_italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Adi Haus Bold';
+  src: local('Adi Haus Bold'), url(./fonts/adihaus_bold.ttf) format('truetype');
+}
